@@ -1,0 +1,19 @@
+div{
+    animation: color  1s infinite ease;
+    margin-top: 100px;
+    align-self: center;
+    justify-self: center;
+}
+
+@keyframes color{
+    0% {color: blue;
+    transform: rotate(0deg);}
+    25%{color: green;
+    transform: rotate(90deg);}
+    50% {color : yellow;
+    transform: rotate(180deg);}
+    75% {color: red;
+    transform: rotate(270deg);}
+    100% {color: violet;
+    transform: rotate(360deg);}
+}
